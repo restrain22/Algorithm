@@ -14,31 +14,31 @@ public:
 		x = _x; y = _y;
 	}
 };
-int main() {
-
-	int N = 0;
-	int max = -1;
-	int H = 0;
-	cin >> N;
-	vector<vector<int>> arr(N, vector<int>(N, 0));
-
-	for (int i = 0;i < N;i++) {
-		for (int j = 0;j < N;j++) {
-			cin >> arr[i][j];
-			if (H < arr[i][j]) H = arr[i][j];
-		}
-	}
-	//print(N,arr);
-
-	for (int i = 0; i <= H; i++)
-	{
-		int count = findMAX(N, i, arr);
-		//cout << "INDEX : " << i << " COUNT : "<< count;
-		max = (max < count) ? count : max;
-		//cout << " MAX : " << max << endl << endl;
-	}
-	cout << max;
-}
+//int main() {
+//
+//	int N = 0;
+//	int max = -1;
+//	int H = 0;
+//	cin >> N;
+//	vector<vector<int>> arr(N, vector<int>(N, 0));
+//
+//	for (int i = 0;i < N;i++) {
+//		for (int j = 0;j < N;j++) {
+//			cin >> arr[i][j];
+//			if (H < arr[i][j]) H = arr[i][j];
+//		}
+//	}
+//	//print(N,arr);
+//
+//	for (int i = 0; i <= H; i++)
+//	{
+//		int count = findMAX(N, i, arr);
+//		//cout << "INDEX : " << i << " COUNT : "<< count;
+//		max = (max < count) ? count : max;
+//		//cout << " MAX : " << max << endl << endl;
+//	}
+//	cout << max;
+//}
 
 void print(int N, vector<vector<int>> arr) {
 	cout << endl << endl;
