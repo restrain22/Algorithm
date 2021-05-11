@@ -145,6 +145,7 @@
     <ClCompile Include="1473(미로만들기).cpp" />
     <ClCompile Include="14923.cpp" />
     <ClCompile Include="2468(안전영역)_20210331_BFS_SUCCESS.cpp" />
+    <ClCompile Include="Prg(베스트앨범).cpp" />
     <ClCompile Include="Prg(완주하지못한선수).cpp" />
     <ClCompile Include="Prg(위장).cpp" />
     <ClCompile Include="Prg(전화번호 목록).cpp" />
