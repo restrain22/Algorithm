@@ -10,9 +10,9 @@ bool compare1(pair<string, int> a, pair<string, int> b);
 bool compare2(pair<int, int> a, pair<int, int> b);
 
 int main() {
-    vector<string> genres = { "classic", "pop", "classic", "classic", "pop" };
+    /*vector<string> genres = { "classic", "pop", "classic", "classic", "pop" };
     vector<int> plays = { 500, 600, 150, 800, 2500 };
-    solution(genres, plays);
+    solution(genres, plays);*/
 }
 
 vector<int> solution(vector<string> genres, vector<int> plays) {
