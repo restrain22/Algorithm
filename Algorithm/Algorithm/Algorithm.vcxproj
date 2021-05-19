@@ -148,10 +148,12 @@
     <ClCompile Include="Prg(H-Index).cpp" />
     <ClCompile Include="Prg(K번째수).cpp" />
     <ClCompile Include="Prg(가장 큰 수).cpp" />
+    <ClCompile Include="Prg(단어변환).cpp" />
     <ClCompile Include="Prg(베스트앨범).cpp" />
     <ClCompile Include="Prg(완주하지못한선수).cpp" />
     <ClCompile Include="Prg(위장).cpp" />
     <ClCompile Include="Prg(전화번호 목록).cpp" />
+    <ClCompile Include="Prg(타겟넘버).cpp" />
     <ClCompile Include="split.cpp" />
     <ClCompile Include="괄호(9012).cpp" />
   </ItemGroup>

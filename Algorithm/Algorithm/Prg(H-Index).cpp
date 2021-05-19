@@ -6,10 +6,10 @@ using namespace std;
 
 int solution(vector<int> citations);
 
-int main() {
-    vector<int>citations = { 3, 0, 6, 1, 5 };
-    cout<<solution(citations);
-}
+//int main() {
+//    vector<int>citations = { 3, 0, 6, 1, 5 };
+//    cout<<solution(citations);
+//}
 int solution(vector<int> citations) {
 	int answer = 0;
 	sort(citations.begin(), citations.end(), greater<>());
