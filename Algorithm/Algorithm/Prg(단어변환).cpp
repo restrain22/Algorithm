@@ -8,17 +8,17 @@ using namespace std;
 int solution(string begin, string target, vector<string>words);
 void dfs(string begin, string target, vector<string>words, vector<int> visited, int comp);
 int minVal = INT_MAX;
-int main() {
-
-	string begin = "hit";
-	string target = "cog";
-	vector<string> words = { "hot", "dot", "dog", "lot", "log", "cog" };
-
-	//vector<string> words = { "hot", "dot", "dog", "lot", "log" };
-	cout<<solution(begin, target, words);
-
-
-}
+//int main() {
+//
+//	string begin = "hit";
+//	string target = "cog";
+//	vector<string> words = { "hot", "dot", "dog", "lot", "log", "cog" };
+//
+//	//vector<string> words = { "hot", "dot", "dog", "lot", "log" };
+//	cout<<solution(begin, target, words);
+//
+//
+//}
 
 void dfs() {
 
